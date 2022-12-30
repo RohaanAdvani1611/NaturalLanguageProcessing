@@ -1,0 +1,20 @@
+NLP Assignment 3: Rohaan Advani - 111903151
+
+Operations for Editing:
+1. Insert
+2. Delete
+3. Substitution
+
+Edit Distance Algorithm:
+1. If the input string is empty, insert all characters of the target string into it.
+2. If the target string is empty, delete all characters of the input string.
+3. If the last character of both strings is equal, ignore them and recursively run the function till before the last character.
+4. If the last characters are unequal, consider all three operations on the last character of the first string, recursively compute the minimum cost for all three operations, and take a minimum of three values.
+
+Program Procedure:
+1. Create a Dataframe of words.
+2. Take user input of word.
+3. Using a loop calculate the edit distances of each word in the dataframe from the user input string and store it in a new column.
+4. Find minimum edit distance using the min() function.
+5. Make a list of all words having an edit distance equal to the minimum edit distance.
+6. Provide suggestions for auto-correct.
