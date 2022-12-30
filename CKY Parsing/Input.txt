@@ -1,0 +1,17 @@
+NP -> Det | Nom
+Nom -> AP | Nom
+AP -> Adv | A
+Nom -> book
+Nom -> orange
+Nom -> man
+AP -> heavy
+AP -> orange
+AP -> tall
+Det -> a
+Adv -> very
+Adv -> extremely
+A -> heavy
+A -> orange
+A -> tall
+A -> muscular
+a very heavy orange book
